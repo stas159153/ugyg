@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.shop{
+    
+}
+.wrapper{
+    margin: auto;
+    max-width: 1600px;
+}
+.title-text{
+font-weight: 900;
+font-size: 48px;
+letter-spacing: 0.06em;
+position: relative;
+display: inline-block;
+line-height: 50px;
+margin-bottom: 100px;
+padding-top: 60px;
+}
+.title-text::after{
+    content: ' ';
+    display: inline-block;
+    background-image: url(./maket-2/Vector\ 8.svg);
+    position: absolute;
+    right: -41px;
+    bottom: -8px;
+    z-index: -1; 
+    width: 186px;
+    height: 35px;
+}
+.shop-gallary__card-title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #191919;
+}
+.shop-gallary__card-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #7F7F7F;
+}
+.shop-gallary__card-bottom{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.shop__gallary{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.shop-gallary__card{
+    width: 30%;
+}
+.shop-gallery__fhoto{
+    width: 100%;
+}
+@media (max-width:1469px) {
+.title-text{
+margin-bottom: 100px;
+}
+.shop-gallary__card{
+    width: 45%;
+}
+    
+}
+@media (max-width:781px){
+    .shop-gallary__card{
+        width: 100%;
+    }
+}
+    
+
+
